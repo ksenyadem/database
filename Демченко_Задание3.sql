@@ -1,5 +1,7 @@
 create schema food_store; 
 
+SET search_path = food_store, public;
+
 create table Customer (
 	Customer_id integer NOT null
 	,Company_title varchar(100) NOT null

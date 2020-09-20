@@ -1,3 +1,5 @@
+SET search_path = food_store, public;
+
 insert into "Position" values(1,'Координатор по продажам' );
 insert into "Position" values(2,'Менеджер по продажам' );
 insert into "Position" values(3,'Старший менеджер' );
